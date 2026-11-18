@@ -1,0 +1,16 @@
+{
+  "name": "agenticos-skill",
+  "owner": {
+    "name": "Batista Harahap"
+  },
+  "metadata": {
+    "description": "A Claude plugin for working with an AgenticOS deployment"
+  },
+  "plugins": [
+    {
+      "name": "agenticos",
+      "source": "./",
+      "description": "Operate an AgenticOS organization from Claude through its MCP server: build and publish agents, diagnose runs and spend, automate with routines and workflows, and manage knowledge, tables and tasks."
+    }
+  ]
+}
