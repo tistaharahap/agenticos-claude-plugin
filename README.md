@@ -77,6 +77,6 @@ The MCP tool descriptions are the contract; the skill deliberately does not rest
 
 `evaluations/` holds scenarios in the format the [skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) describe. Run them against a test organization with and without the plugin when changing the skill.
 
-## Origin
+## License
 
-Copied from the `plugins/agenticos` directory of [vstorm-co/agenticos](https://github.com/vstorm-co/agenticos), where the MCP server it documents lives (`backend/app/services/platform_mcp/`). Licensed under Apache-2.0, as that repository is.
+[MIT](LICENSE)
