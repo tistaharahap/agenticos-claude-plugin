@@ -49,8 +49,8 @@ claude --plugin-dir ./agenticos-claude-plugin
 ## Layout
 
 ```
-agenticos-skill/
-├── .claude-plugin/                   plugin.json and marketplace.json
+agenticos-claude-plugin/
+├── .claude-plugin/                      plugin.json and marketplace.json
 ├── skills/operating-agenticos/
 │   ├── SKILL.md                         overview, rules, core workflows
 │   └── reference/
@@ -60,7 +60,9 @@ agenticos-skill/
 │       ├── automation.md                routines, watches, tasks
 │       ├── workflows-and-tables.md      graphs, testing, records
 │       └── knowledge-and-skills.md      knowledge bases, context files, skills
-└── evaluations/                         scenarios for checking the skill
+├── evaluations/                         scenarios for checking the skill
+├── LICENSE
+└── README.md
 ```
 
 ## How the skill was checked
