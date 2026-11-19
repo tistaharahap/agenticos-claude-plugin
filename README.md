@@ -32,14 +32,19 @@ Two choices at sign-in decide what the skill can do:
 
 ## Install
 
-From a checkout of this repository:
+Add the [GitHub repository](https://github.com/tistaharahap/agenticos-claude-plugin) as a marketplace, then install the plugin from it:
 
 ```bash
-claude plugin marketplace add /path/to/agenticos-skill
+claude plugin marketplace add tistaharahap/agenticos-claude-plugin
 claude plugin install agenticos@agenticos-skill
 ```
 
-To try it without installing, start Claude Code with `claude --plugin-dir /path/to/agenticos-skill`.
+To try it without installing, clone the repository and point Claude Code at the checkout:
+
+```bash
+git clone https://github.com/tistaharahap/agenticos-claude-plugin.git
+claude --plugin-dir ./agenticos-claude-plugin
+```
 
 ## Layout
 
